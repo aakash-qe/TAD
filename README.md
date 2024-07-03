@@ -1,24 +1,12 @@
-# Anomaly Detection for Python
+to run do:
 
-![PyPI - Downloads](https://img.shields.io/pypi/dm/tad?color=lightgreen&label=PyPI)
+make a new venv:
+python3 -m venv venv
+source venv/bin/activate
 
-## Introduction
+cd AnomalyDetection
+install req packages
+python -m pip install -r requirements.txt
+python setup.py install
 
-Twitter's Anomaly Detection is easy to use, but it's a R library. 
-
-Although there are some repos for python to run twitter's anomaly detection algorithm, but those libraies requires R installed.
-
-This repo aims for rewriting twitter's Anomaly Detection algorithms in Python, and providing same functions for user.
-
-
-## Install
-
-```
-pip3 install tad
-```
-
-## Usage
-
-```
-import tad
-```
+then feel free to change try.py and run it.
