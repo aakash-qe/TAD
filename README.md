@@ -7,6 +7,5 @@ source venv/bin/activate
 cd AnomalyDetection
 install req packages
 python -m pip install -r requirements.txt
-python setup.py install
 
-then feel free to change try.py and run it.
+feel free to change and run try.py
