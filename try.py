@@ -1,4 +1,4 @@
-import tad
+from tad import anomaly_detect_ts
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -18,7 +18,7 @@ values = data['count'].values
 data = data.squeeze()
 idxs = data.index.values
 
-ans = tad.anomaly_detect_ts(data, direction='both', 
+ans = anomaly_detect_ts(data, direction='both', 
                   alpha=0.05, plot=False, longterm=True)
 
 ans = ans['anoms']
